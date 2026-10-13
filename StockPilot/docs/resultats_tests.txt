@@ -1,0 +1,13 @@
+T01 | Normal | stock P001=16 | Sortie enregistrée. Stock restant : 16. | RÉUSSI
+T02 | Limite : stock épuisé | stock P001=0 | Sortie enregistrée. Stock restant : 0. Alerte : produit à commander. | RÉUSSI
+T03 | Limite : seuil atteint | stock P001=5 | Sortie enregistrée. Stock restant : 5. Alerte : produit à commander. | RÉUSSI
+T04 | Invalide : stock insuffisant | stock P001=20 | Stock insuffisant : sortie refusée. | RÉUSSI
+T05 | Invalide : zéro | stock P001=20 | La quantité doit être supérieure à zéro. | RÉUSSI
+T06 | Invalide : négatif | stock P001=20 | La quantité doit être supérieure à zéro. | RÉUSSI
+T07 | Invalide : texte | stock P001=20 | La quantité doit être un entier. | RÉUSSI
+T08 | Invalide : décimal | stock P001=20 | La quantité doit être un entier. | RÉUSSI
+T09 | Invalide : produit absent | stock P001=20 | Produit inexistant. | RÉUSSI
+T10 | Normal : espaces et minuscules | stock P001=16 | Sortie enregistrée. Stock restant : 16. | RÉUSSI
+T11 | Invalide : saisie vide | stock P001=20 | La quantité doit être un entier. | RÉUSSI
+
+11/11 tests réussis.
